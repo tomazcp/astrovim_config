@@ -10,6 +10,9 @@ return {
         "lua_ls",
         "tsserver",
         "html",
+        "gopls",
+        "golangci_lint_ls",
+        -- "denols",
         -- "tailwindcss-language-server",
       })
     end,
@@ -23,6 +26,7 @@ return {
       opts.ensure_installed = require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         "prettier",
         "stylua",
+        -- "eslint",
       })
     end,
   },
